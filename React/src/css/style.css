@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,800&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.ant-table-thead .ant-table-cell {
+    background-color: #588C7E !important;
+    color: white !important;
+}
+
+/* 
+  .ant-table-row {
+    border-radius: 10px !important;
+  } */
+
+
+/* custom-styles.css */
+.ant-input {
+    border-color: #02A676;
+    /* Change this to the desired border color */
+}
+
+
+
+/* Custom styles for active page */
+.ant-pagination-item-active {
+    background-color: #02A676;
+    color: #fff;
+}
+
+/* Custom styles for disabled buttons */
+.ant-pagination-disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Custom styles for page size selector */
+.ant-pagination-options {
+    margin-left: 20px;
+}
+
+/* Custom styles for the pagination bar */
+.ant-pagination {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 10px 75px;
+    font-size: 14px;
+}
+
+/* Other pagination styles (similar to previous example) */
+/* .ant-table {
+    font-family: 'Poppins', sans-serif !important;
+    font-size:40px;
+  } */
+.highlighted {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Custom CSS */
+.ant-input:focus {
+    border-color: #02A676 !important;
+    /* Change to your desired color */
+}
+
+
+/* Custom table styles for Code Sous Actes */
+.code-sous-actes-table {
+    background-color: #f0f0f0; /* Change the background color */
+    padding: 16px; /* Add padding */
+  }
+  
+  /* Custom column styles for Code Sous Actes */
+  .code-sous-actes-column {
+    background-color: #d9d9d9; /* Change the column background color */
+    color: #000; /* Change the column text color */
+    font-weight: bold; /* Apply bold font to column text */
+  }
+  
+  /* Custom cell styles for Code Sous Actes */
+  .code-sous-actes-cell {
+    background-color: #e6e6e6; /* Change the cell background color */
+    color: #000; /* Change the cell text color */
+  }
+  
+/* Add padding to the Code Sous Actes table wrapper */
+.code-sous-actes-table-wrapper {
+    padding: 45px; /* Adjust the padding as needed */
+  }
+    
